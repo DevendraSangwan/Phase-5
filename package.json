@@ -2,10 +2,13 @@
   "name": "try-phase-5",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon main.js"
-  },
+  "start": "nodemon backend/main.js",
+  "mini-1": "nodemon backend/mini-1.js",
+  "mini-2": "nodemon backend/mini-2.js",
+  "mini-3": "nodemon backend/mini-3.js"
+},
+
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -15,9 +18,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "nodeman": "^1.1.2",
     "nodemon": "^3.1.11"
   },
-  "devDependencies": {},
   "description": ""
 }

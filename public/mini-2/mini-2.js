@@ -13,7 +13,7 @@ btn.addEventListener("click", async () => {
   output.textContent = "Loading... ";
 
   try {
-    const response = await fetch("http://localhost:3000/journal-prompt", {
+    const response = await fetch("http://localhost:3002/journal-prompt", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

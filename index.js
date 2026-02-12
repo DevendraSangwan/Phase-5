@@ -1,16 +1,16 @@
-// import express from 'express';
+// // import express from 'express';
 
-// const app = express();
+// // const app = express();
 
-// app.use(express.json());
+// // app.use(express.json());
 
-// app.get("/", (req, res)=>{
-//     res.status(200).json({"result":"My backend is ruuning devendra"})
-// })
+// // app.get("/", (req, res)=>{
+// //     res.status(200).json({"result":"My backend is ruuning devendra"})
+// // })
 
-// app.listen(5000, ()=>{
-//     console.log("Sevrer is running on http://localhost:5000")
-// })
+// // app.listen(5000, ()=>{
+// //     console.log("Sevrer is running on http://localhost:5000")
+// // })
 
 
 

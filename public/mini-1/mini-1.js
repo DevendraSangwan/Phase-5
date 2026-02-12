@@ -5,7 +5,7 @@ funBtn.addEventListener('click', async () => {
   outputDiv.textContent = "Loading...";
 
   try {
-    const response = await fetch("http://localhost:3000/fun-fact");
+    const response = await fetch("http://localhost:3001/fun-fact");
     const data = await response.json();
     outputDiv.innerHTML = data.fact;
   } catch (err) {

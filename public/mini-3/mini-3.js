@@ -10,7 +10,7 @@ document.getElementById("jokeBtn").addEventListener("click", async () => {
     outputDiv.textContent = "Loading...";
 
   try {
-    const response = await fetch("http://localhost:3000/joke");
+    const response = await fetch("http://localhost:3003/joke");
     const data = await response.json();
     outputDiv.innerHTML = data.joke;
   } catch (err) {
@@ -25,7 +25,7 @@ document.getElementById("motivationBtn").addEventListener("click", async () => {
   btn.disabled=true;
 
   try {
-    const response = await fetch("http://localhost:3000/motivation");
+    const response = await fetch("http://localhost:3003/motivation");
     const data = await response.json();
     outputDiv.innerHTML = data.motivation;
   } catch (err) {
@@ -39,7 +39,7 @@ document.getElementById("tipBtn").addEventListener("click", async () => {
   outputDiv.textContent = "Loading...";
 btn.disabled=true;
   try {
-    const response = await fetch("http://localhost:3000/tip-of-the-day");
+    const response = await fetch("http://localhost:3003/tip-of-the-day");
     const data = await response.json();
     outputDiv.innerHTML = data.tip;
   } catch (err) {
