@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Daily Journal Prompter</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <h1>AI Daily Journal Prompter</h1>
+  <p>Select your mood and get a journaling prompt ✨</p>
+</header>
+
+<main>
+  <section class="feature">
+    <select id="mood">
+      <option value=""> --Select Mood-- </option>
+      <option value="happy">Happy</option>
+      <option value="stressed">Stressed</option>
+      <option value="curious">Curious</option>
+      <option value="sad">Sad</option>
+      <option value="motivated">Motivated</option>
+    </select>
+
+    <button id="generateBtn">Get Journal Prompt</button>
+
+    <div class="output" id="journalOutput"></div>
+  </section>
+</main>
+
+<script src="mini-2.js"></script>
+</body>
+</html>

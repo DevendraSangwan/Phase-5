@@ -1,0 +1,23 @@
+{
+  "name": "try-phase-5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.39.0",
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {},
+  "description": ""
+}
